@@ -22,3 +22,136 @@ section {
 	background: transparent url("../img/mars-pano.jpg") no-repeat center top;
 	background-size: cover;
 }
+
+.dipper {
+	width: 200px;
+	opacity: 0;
+}
+
+.js-dipper-fade {
+	-webkit-animation: dipper-fade 1s linear forwards;
+	-moz-animation: dipper-fade 1s linear forwards;
+	-o-animation: dipper-fade 1s linear forwards;
+	-ms-animation: dipper-fade 1s linear forwards;
+	animation: dipper-fade 1s linear forwards;
+}
+
+@-webkit-keyframes dipper-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes dipper-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes dipper-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes dipper-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes dipper-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.shuttle-section {
+	background-color: #FEA602;
+}
+
+.shuttle {
+	width: 200px;
+	position: relative;
+	top: 10em;
+	opacity: 0;
+}
+	
+.js-shuttle-slide {
+	-webkit-animation: shuttle-slide 1000ms ease-out forwards;
+	-moz-animation: shuttle-slide 1000ms ease-out forwards;
+	-o-animation: shuttle-slide 1000ms ease-out forwards;
+	-ms-animation: shuttle-slide 1000ms easse-out forwards;
+	animation: shuttle-slide 1000ms ease-out forwards;
+}
+
+@-webkit-keyframes shuttle-slide {
+	0% {
+		top: 10em;
+		opacity: 0;
+	}
+	100% {
+		top: 0;
+		opacity: 1;
+	}
+	
+}
+
+@-moz-keyframes shuttle-slide {
+	0% {
+		top: 10em;
+		opacity: 0;
+	}
+	100% {
+		top: 0;
+		opacity: 1;
+	}
+}
+
+@-o-keyframes shuttle-slide {
+	0% {
+		top: 10em;
+		opacity: 0;
+	}
+	100% {
+		top: 0;
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes shuttle-slide {
+	0% {
+		top: 10em;
+		opacity: 0;
+	}
+	100% {
+		top: 0;
+		opacity: 1;
+	}
+}
+
+@keyframes shuttle-slide {
+	0% {
+		top: 10em;
+		opacity: 0;
+	}
+	100% {
+		top: 0;
+		opacity: 1;
+	}
+}
